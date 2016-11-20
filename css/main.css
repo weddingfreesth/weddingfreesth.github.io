@@ -441,3 +441,33 @@ article {
   padding: 10px;
 }
 
+.autocomplete-reason{
+  font-size:2em;
+  color: #767676;
+}
+
+.typed-cursor{
+    opacity: 1;
+    font-size:2em;
+    font-height:1.2;
+    font-weight:100;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
