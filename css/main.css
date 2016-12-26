@@ -286,12 +286,11 @@ textarea {
 .navigation {
   height: 70px;
   background: #ffffff;
-  font-family: 'Comfortaa', cursive;
 }
 
 .brand {
   position: absolute;
-  padding-left: 20px;
+  padding-left: 10px;
   float: left;
   line-height: 70px;
   text-transform: none;
@@ -444,7 +443,8 @@ article {
 
 .autocomplete-reason{
   font-size: 1.8em;
-  color: #767676;
+  font-weight:900;
+  color: #676767;
 }
 
 .typed-cursor{
@@ -494,17 +494,70 @@ article {
 }
 
 .section{
-  padding: 5% 0;
-}
-
-.front-page-faq{
-  width:100%;
-  box-sizing: border-box;
-  float:left;
-  padding: 15px;
-  color:#676767;
+  padding: 3% 0;
+  text-align:center;
 }
 
 .clearfix{
   clear:both;
+}
+
+.button{
+  padding:10px 25px;
+  text-align:center;
+  font-size:1.1rem;
+  line-height:1.6;
+  white-space: nowrap;
+  text-decoration:none;
+  border-radius:30px;
+  border:1px solid #f95759;
+  background:#f95759;
+  cursor:pointer;
+  font-weight:600;
+  margin: 5px 0;
+  box-shadow: 0 1px 1px rgba(0,0,0,.1);
+  color:white;
+  text-shadow:none;
+}
+
+.button:hover{
+  text-decoration:none;
+  border:1px solid #f95759;
+  color:#f95759;
+  background:white;
+}
+
+#footer{
+  background-color:#5B4E4E;
+  text-align:center;
+  padding: 1% 0;
+  font-size:0.8em;
+  color:#ffe6e6;
+}
+
+.front-product{
+  width:25%;
+  float:left;
+  padding:15px;
+  box-sizing:border-box;
+}
+
+.front-page-thumb{
+  width:80%;
+}
+
+.half{
+  width:50%;
+  background-size:cover;   
+  background-position:center; 
+  float:left;
+  height: 450px;
+}
+
+.product-cat{
+  font-family: 'Flamenco', cursive;
+  color:white; 
+  font-size:48px; 
+  font-weight:100;
+  text-shadow:0 5px 13px rgba(0,0,0,25);
 }

@@ -20,8 +20,6 @@
       this.classList.toggle('active');
     });
     
-    //TODO for every few seconds, change text
-    //TODO typing effect when showing text
     var currentSlide = 0;
     var bannerPic = [
       "img/mine-banner.png",
