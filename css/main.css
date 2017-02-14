@@ -478,13 +478,14 @@ article {
   -moz-transition: background 1000ms ease-in 200ms;
   -o-transition: background 1000ms ease-in 200ms;
   transition: background 1000ms ease-in 200ms;
-  text-align:left; 
-  height:400px; 
+  text-align:center; 
+  height:500px; 
   background-size:cover; 
   background-position:center;
   max-width:1280px; 
   margin-left:auto; 
   margin-right:auto;
+  background-image: url("/img/holdhands.jpg");
 }
 
 .container{
@@ -496,6 +497,7 @@ article {
 .section{
   padding: 3% 0;
   text-align:center;
+  max-width:1280px;
 }
 
 .clearfix{
@@ -528,11 +530,11 @@ article {
 }
 
 #footer{
-  background-color:#5B4E4E;
+  background-color:#ffe6e6;
   text-align:center;
   padding: 1% 0;
   font-size:0.8em;
-  color:#ffe6e6;
+  color:#676767;
 }
 
 .front-product{
